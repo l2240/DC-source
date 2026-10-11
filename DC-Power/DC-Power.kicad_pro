@@ -485,10 +485,11 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "DC-POWER"
+      "DC-POWER",
+      "JLCImport"
     ],
     "pinned_symbol_libs": [
-      "DC-POWER"
+      "JLCImport"
     ]
   },
   "meta": {

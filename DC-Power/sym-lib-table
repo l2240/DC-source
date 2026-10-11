@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "DC-POWER") (type "KiCad") (uri "E:/Github-project/数控电源/ilb/DC-POWER.kicad_sym") (options "") (descr ""))
+)

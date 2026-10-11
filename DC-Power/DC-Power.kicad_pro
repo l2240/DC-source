@@ -663,13 +663,18 @@
       {
         "filename": "DC-Power.kicad_sch",
         "name": "DC-Power",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "c1cefe3a-2670-4376-a86c-f74e2413eaaa"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,#PWR1-4",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "c1cefe3a-2670-4376-a86c-f74e2413eaaa",
+      "DC-Power"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

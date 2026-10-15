@@ -1,0 +1,153 @@
+(footprint "IND-SMD_11_5x10_5"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "260mΩ 2A 3A 68uH Molded inductor ±20% SMD,11.5x10.5mm Molding Power Inductors ROHS")
+	(tags "C53463011 IND-SMD_L11.5-W10.5_SRG1040 SRG1040-680-M jieerrui")
+	(property "Reference" "REF**"
+		(at 0 -6.25 0)
+		(layer "F.SilkS")
+		(uuid "9abba1f8-5824-4862-a603-6a1a99c1e691")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 6.25 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c6f474b-a139-432c-a8b8-4387a6bef2cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20260129/651F1364CD3CF6536DB4F2006D28FE0A.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90b95d80-9def-4dff-b0dc-3efb73e12f0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "260mΩ 2A 3A 68uH Molded inductor ±20% SMD,11.5x10.5mm Molding Power Inductors ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ceb86f0d-15ff-4ca1-a67d-5c232407739e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C53463011"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3225592-bd9c-40be-b05e-8bf40458cac1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.25 -5.25018)
+		(end 5.25 -5.25018)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2706cd1c-627d-424a-ac05-fdfff68a69b8")
+	)
+	(fp_line
+		(start -5.25 -2.281225)
+		(end -5.25 -5.25018)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9ce9236f-f9d2-4f95-a62f-3f418b53bc9c")
+	)
+	(fp_line
+		(start -5.25 5.25)
+		(end -5.25 2.281)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8061f83-580f-482a-979f-325b86a87e56")
+	)
+	(fp_line
+		(start 5.25 -5.25018)
+		(end 5.25 -2.281225)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "657fe0b5-2723-4e63-9f82-1ea6e40ecca2")
+	)
+	(fp_line
+		(start 5.25 2.281)
+		(end 5.25 5.25)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07d92d33-ad15-4bf3-b323-3b2d636be571")
+	)
+	(fp_line
+		(start 5.25 5.25)
+		(end -5.25 5.25)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc06976f-3f8e-4a53-8f47-80234970f23c")
+	)
+	(pad "1" smd rect
+		(at -4.75 0)
+		(size 4.1 4.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c16bca14-2b69-4e34-a883-a68c59630b1f")
+	)
+	(pad "2" smd rect
+		(at 4.75 0)
+		(size 4.1 4.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d538c7f4-d7fd-4ab4-9894-d64ebe349644")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/IND-SMD_11_5x10_5.wrl"
+		(offset
+			(xyz 0 0 0.01)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

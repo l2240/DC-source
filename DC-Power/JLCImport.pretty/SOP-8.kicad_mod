@@ -1,0 +1,191 @@
+(footprint "SOP-8"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-20℃~+70℃ 1 2Mbps 3.3V、5V USB 2.0 USB to serial SOP-8 USB Converters ROHS")
+	(tags "C2977777 CH340N SOP-8_L4.9-W3.9-P1.27-LS6.0-BL WCH(Jiangsu Qin Heng)")
+	(property "Reference" "REF**"
+		(at 0 -4.615 0)
+		(layer "F.SilkS")
+		(uuid "95fb62b4-b00d-4681-9c7e-259767ed606e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 4.615 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31ef8a77-3757-4643-ba85-6b3dc9714ad1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403131131_WCH-Jiangsu-Qin-Heng-CH340N_C2977777.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2d333a67-c0f2-4de7-9ea9-845cbb4fa658")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-20℃~+70℃ 1 2Mbps 3.3V、5V USB 2.0 USB to serial SOP-8 USB Converters ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c71eb3a-49c2-409c-b730-9cb4835e9fb3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2977777"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f17b836e-eb58-49ca-b9fa-3c622bda9d14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.576246 -1.52146)
+		(end 2.576 -1.52146)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8615b136-1577-4682-8dd2-ac9b733ef5bb")
+	)
+	(fp_line
+		(start -2.576246 1.521308)
+		(end -2.576246 -1.52146)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f612497-f30f-423e-93e5-66f8017fd695")
+	)
+	(fp_line
+		(start 2.576 -1.52146)
+		(end 2.576 1.521308)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "723f4e63-7250-4106-999b-988bd183fbd7")
+	)
+	(fp_line
+		(start 2.576 1.521308)
+		(end -2.576246 1.521308)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aff2468b-e5b3-42b3-8dd5-65d064218c27")
+	)
+	(fp_circle
+		(center -2.672359 2.682494)
+		(end -2.52222 2.682494)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "ec9f9312-3d89-498b-9323-9533a5be84b3")
+	)
+	(fp_circle
+		(center -1.905 0.769)
+		(end -1.755 0.769)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0212914d-ec57-4beb-966d-5e8c3b232268")
+	)
+	(pad "1" smd oval
+		(at -1.905 2.682494)
+		(size 0.63 1.865)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4da77711-7703-47c8-849f-286d42060970")
+	)
+	(pad "2" smd oval
+		(at -0.635 2.682494)
+		(size 0.63 1.865)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "083460f1-6800-47f0-9ee7-792b4aa9a78f")
+	)
+	(pad "3" smd oval
+		(at 0.635 2.682494)
+		(size 0.63 1.865)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1cb31e7f-43aa-4f8b-9517-65c0d413eccf")
+	)
+	(pad "4" smd oval
+		(at 1.905 2.682494)
+		(size 0.63 1.865)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "66737575-e880-4242-8f84-4dbdc5c3d2b7")
+	)
+	(pad "5" smd oval
+		(at 1.905 -2.682494)
+		(size 0.63 1.865)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "972d6d7a-d155-408e-ba9e-b75e5d92cacd")
+	)
+	(pad "6" smd oval
+		(at 0.635 -2.682494)
+		(size 0.63 1.865)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "be39ebfe-a319-41b4-891e-7eca5693261b")
+	)
+	(pad "7" smd oval
+		(at -0.635 -2.682494)
+		(size 0.63 1.865)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23f1b9c5-2475-4f60-b0ec-670f811c29fc")
+	)
+	(pad "8" smd oval
+		(at -1.905 -2.682494)
+		(size 0.63 1.865)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cf5cb02b-90c3-4630-a9b3-a3d494ea7d94")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/JLCImport.3dshapes/SOP-8.wrl"
+		(offset
+			(xyz 0 0 0.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

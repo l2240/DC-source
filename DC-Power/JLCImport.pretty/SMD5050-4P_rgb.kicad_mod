@@ -1,0 +1,222 @@
+(footprint "SMD5050-4P_rgb"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "-40℃~+85℃ 0.45mA 1.6mm 200mcd~300mcd 3.5V~5V 300mcd~500mcd 4.5kHz 460nm~475nm 467nm 5.4mm 500ns 500ns 515nm~530nm 525nm 5mm 610nm~630nm 625nm 700mcd~1500mcd 800Kbit/s 80ns Diffused Lens SMD5050-4P RGB LEDs(Built-in IC) ROHS")
+	(tags "C51933368 GL5050RGB01H-W Gui guang light LED-SMD_4P-L5.0-W5.0-LS5.4-TL_GL5050RGB01H-T")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "495b20b8-c068-4e44-a5bf-9ad01a0013b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 3.50012 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2136ac9f-096f-460f-8153-351e446a9b50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20250916/7491B04D593D4E7A83F353AB7E24B9C4.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10ac427c-807c-4fc0-ab94-d422128c28f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+85℃ 0.45mA 1.6mm 200mcd~300mcd 3.5V~5V 300mcd~500mcd 4.5kHz 460nm~475nm 467nm 5.4mm 500ns 500ns 515nm~530nm 525nm 5mm 610nm~630nm 625nm 700mcd~1500mcd 800Kbit/s 80ns Diffused Lens SMD5050-4P RGB LEDs(Built-in IC) ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "216e1b75-8d3b-4498-bd9a-875ef0e688fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C51933368"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7493dac3-264f-4e7e-b15c-98b52e91271c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.5 -2.5)
+		(end -2.5 -2.331)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3281710b-525a-4e1d-8115-03590df93108")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a62f634-42a7-493d-a84d-07c739d09c30")
+	)
+	(fp_line
+		(start -2.5 -0.868832)
+		(end -2.5 0.869)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "794794a1-a315-4882-972c-427b4b8107ce")
+	)
+	(fp_line
+		(start -2.5 2.331314)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc1cf8bd-fc72-4573-a63e-93c9fb6c0a20")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end 2.5 -2.331)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a303a674-b1b5-4709-a4e9-ab94faafd1f0")
+	)
+	(fp_line
+		(start 2.5 -0.868832)
+		(end 2.5 0.869)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d52b134d-fe2d-4e07-8adf-9e04571a1b92")
+	)
+	(fp_line
+		(start 2.5 2.331314)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5412bd7-6b5b-4d54-850b-6de392848cde")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "add877d9-f8c5-4790-a352-dee9a3c32b79")
+	)
+	(fp_poly
+		(pts
+			(xy 2.54 2.54) (xy 2.54 1.651) (xy 1.651 2.54)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "b3f1428c-61cb-4ab4-80b4-d3943f4cf3d6")
+	)
+	(fp_poly
+		(pts
+			(xy -2.794 -1.5875) (xy -2.794 -1.7145) (xy -2.032 -1.7145) (xy -2.032 -1.5875)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "225fb2da-ef4d-4611-9598-3d005257d62e")
+	)
+	(fp_poly
+		(pts
+			(xy -2.3495 -1.27) (xy -2.4765 -1.27) (xy -2.4765 -2.032) (xy -2.3495 -2.032)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "21ec0df7-9828-4c12-94e7-067430c24b67")
+	)
+	(fp_poly
+		(pts
+			(xy 1.905 1.524) (xy 1.905 1.397) (xy 2.667 1.397) (xy 2.667 1.524)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "257058ea-224d-486c-9cc1-1f80076d191d")
+	)
+	(pad "1" smd rect
+		(at -2.4 -1.6)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "58170eb0-7a49-4da3-8636-8faafa38363c")
+	)
+	(pad "2" smd rect
+		(at -2.4 1.6)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "864d044d-274b-4d9b-a5dc-b4bc9d273a0c")
+	)
+	(pad "3" smd rect
+		(at 2.4 1.6)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b7a66842-f32b-45e6-9f83-9dbcf1034b22")
+	)
+	(pad "4" smd rect
+		(at 2.4 -1.6)
+		(size 1.5 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d857cb83-7442-4646-9d0a-8de095170703")
+	)
+	(embedded_fonts no)
+)
